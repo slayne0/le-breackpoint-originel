@@ -1,0 +1,80 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+
+
+
+
+div {
+    width: 100%;
+    padding: 48px;
+    color: white;
+}
+
+.orange {
+    background-color: #E28625;
+}
+
+.blue {
+    background-color: #006971;
+}
+
+.green {
+    background-color: #004140;
+}
+
+h1 {
+    size: 40px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+
+p {
+    line-height: 24px;
+    opacity: 75%;
+    margin-bottom: 24px;
+}
+
+a {
+    background-color: #F2F2F2;
+    padding: 12px 32px 12px 32px;
+    border-radius: 24px;
+    text-decoration: none;
+}
+
+
+
+.bounton-blue {
+    color: #006971;
+}
+
+
+.bounton-green {
+    color: #004140;
+}
+
+
+.bounton-green {
+    color: #E28625;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        min-height: 100vh;
+    }
+    main {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
